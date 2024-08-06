@@ -80,6 +80,7 @@ const fiftyFiveIsWithin = (distance / 30) * 3 < budget;
 //QUESTION TWO: Is it within budget?
 console.log("Is it within budget?: "+ fiftyFiveIsWithin);
 const fiftyFiveHours = distance / 55;
+//QUESTION THREE: How long is the destination?
 console.log(`It will take ${fiftyFiveHours} hours`);
 console.log('======================================')
 //Sixty miles
@@ -90,6 +91,7 @@ const sixtyIsWithin = (distance / 28) * 3 < budget;
 //QUESTION TWO: Is it within budget?
 console.log("Is it within budget?: "+ sixtyIsWithin);
 const sixtyHours = distance / 60;
+//QUESTION THREE: How long is the destination?
 console.log(`It will take ${sixtyHours} hours`);
 console.log('======================================')
 //Seventyfive miles
@@ -100,5 +102,6 @@ console.log(seventyFiveGallons + " gallons of fuel");
 const seventyFiveIsWithin = (distance / 23) * 3 < budget;
 console.log("Is it within budget?: "+ seventyFiveIsWithin);
 const seventyFiveHours = distance / 75;
+//QUESTION THREE: How long is the destination?
 console.log(`It will take ${seventyFiveHours} hours`);
 console.log('======================================')
