@@ -76,11 +76,12 @@ function parseCSV(data){
         if(data[current_index] === '\n'){
             row_string += `${col_string}|`;
             console.log(`${row_string} \n-----------------------------`);
+            //reset the substrings for both row and column
             row_string = ""
             col_string =""
             i = current_index;
             continue;
-        //if not then set i to the current index of what we already parsed and concatenate the row string with the new substring that was parsed
+        //if not then set i to the current index of what we already parsed and concatenate the row string with the new substring that was parsed and reset column substring
         } else{
             i = current_index;
             row_string += `${col_string}|`;
