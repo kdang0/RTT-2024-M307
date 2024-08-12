@@ -1,4 +1,5 @@
 //PART ONE
+//array that contains ints for testing for sumArray and averageArray
 const testNumArray = [1, 2, 3, 4];
 const sumArray = (array) => {
   let sum = 0;
@@ -16,7 +17,9 @@ const averageArray = (array) => {
 };
 //TEST CASE
 console.log(`${averageArray(testNumArray)}`);
+//=======================================
 
+//array containing strings to test for findLongestString function
 const testStringArray = ["say", "hello", "in", "the", "morning"];
 
 const findLongestString = (array, num) => {
@@ -31,6 +34,7 @@ const findLongestString = (array, num) => {
 //TEST CASE
 console.log(`${findLongestString(testStringArray, 3)}`);
 //=======================================
+//Recursively calling starting from 4 to 1 (idk how to do it from 1 to 4 recursively)
 const printNum = (num) => {
   if (num <= 1) {
     return 1;
